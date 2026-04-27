@@ -1,0 +1,19 @@
+Final Project Plan for High Risk Project:
+
+Develop a custom chat agent that utilizes pre-trained ML Models. The chat agent offers mortality prediction and survival analysis and recommends medication to lower mortality risk for female patients admitted to ICU diagnosed with blood diseases (ICD-9: 280–289). The main point here is to enable health professionals to optimally manage resource allocation and review suggested medications to reduce patient mortality and administer better health care.
+
+The key Objective: The ICU chat agent should not directly “guess” medications. It should call the mortality model and medication model first, then use the LLM only to explain the outputs safely.
+
+
+Scope:
+
+1. Develop datasets for ML model using BigQuery. Then use Colab. These Datasets are based on MIMIC III Dataset. 
+2. Develop and Upload all Code files to GitHub location 
+3. Develop Data files as CSV. The Data files and Pre-trained models are stored and shared from google drive.
+4. Develop Chat Interface using openAI API's. Should support Q & A format
+5. Test the interface with data from CSV files
+
+
+
+
+
